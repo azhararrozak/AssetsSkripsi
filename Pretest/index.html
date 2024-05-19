@@ -78,7 +78,7 @@
 
             const listItem = document.createElement("li");
             if (itemType === "file") {
-              if (itemName.match(/\.(jpeg|jpg|gif|png)$/) != null) {
+              if (itemName.match(/\.(jpeg|jpg|gif)$/) != null) {
                 // If it's an image file, create an img element
                 const img = document.createElement("img");
                 img.src = itemUrl;
